@@ -1,2 +1,11 @@
 
 .tmp.driveupload/
+
+# Android / Gradle
+local.properties
+.gradle/
+build/
+*.iml
+.idea/
+.kotlin/
+*.apk

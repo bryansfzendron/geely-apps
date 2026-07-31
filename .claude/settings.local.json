@@ -3,7 +3,11 @@
     "allow": [
       "WebSearch",
       "WebFetch(domain:github.com)",
-      "WebFetch(domain:xdaforums.com)"
+      "WebFetch(domain:xdaforums.com)",
+      "PowerShell(Get-PSDrive -Name D | Select-Object Name, @{n='UsadoGB';e={[math]::Round\\($_.Used/1GB,1\\)}}, @{n='LivreGB';e={[math]::Round\\($_.Free/1GB,1\\)}})",
+      "PowerShell(\"--- conteudo de um dos APKs de 0.1 KB ---\")",
+      "PowerShell(\"`n--- .gitattributes ---\")",
+      "PowerShell(\"`n--- README.md ---\")"
     ]
   }
 }
